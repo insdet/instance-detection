@@ -1,4 +1,4 @@
-# InsDet Dataser
+# InsDet Dataset
 The InsDet datase is a high-resolution real-world dataset for **Instance Detection** with **Multi-view Instance Capture**.<br>
 We provide an InsDet-mini for demo and visualization. The full dataset will be released after paper acceptance.
 
