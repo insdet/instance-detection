@@ -1,0 +1,52 @@
+######  Data Preprocessing  ######
+
+<base_dir> is absolute path for folder "gendata".
+<object_name> is a folder that contains a folder named "images" for original captured images
+from 1 camera positions (45 degree) and 24 rotation positions (15 degree per rotation).
+<object_reshape_name> is used to place outputs by resizeImg.py, grabcut.py, and centreCrop.py.
+
+Note: Photos of objects were taken manually by Huawei P40, with IOS=50, S=1/160, AF-S, and AWB in professional mode.
+
+USAGE:
+###### Foreground Segmentation ######
+1. compute camera poses from original images
+   python imgs2poses.py <base_dir>/<object_name>
+   e.g. /home/SQQ/svid/gendata/bombik_bucket
+
+2. resize raw images to smaller size
+   python resizeImg.py --datadir <base_dir>/<object_name>/images \
+                       --destdir <base_dir>/<object_name>/input \
+                       --resolutions 384 384
+
+3. capture objects manually by using grabcut interactive algorithm
+   python grabcut.py --input <base_dir>/<object_name>/input \
+                     --output <base_dir>/<object_name>/output \
+                     --config <base_dir>/config.json
+   Note: The output folder contains an "annotation" folder for segmentation masks
+         and an "image" folder for segmented objects.
+
+4. resize segmentation masks to original image size
+   python resizeMask.py --datadir <base_dir>/<object_name>/output/annotation \
+                       --destdir <base_dir>/<object_name>/masks \
+                       --resolutions 3072 3072
+
+###### Data Processing for Cut-Paste-Learn ######
+5. compute bbox for objects
+   python getBbox.py --datadir <base_dir>/<object_name>/masks \
+                     --destdir <base_dir>/<object_name>
+
+6. centre crop images and masks to an appropriate size
+   python centerCrop.py --datadir <base_dir>/<object_name>/images(masks) \
+                        --destdir <base_dir>/<object_reshape_name>/images(masks) \
+
+7. resize images and masks to smaller size
+   python resizeImg.py --datadir <base_dir>/<object_reshape_name>/images \
+                       --destdir <dest_dir>/<object_name>/images
+                       --resolutions 256 256
+   python resizeMask.py --datadir <base_dir>/<object_reshape_name>/masks \
+                       --destdir <dest_dir>/<object_name>/masks
+                       --resolutions 256 256
+
+8. invert mask to make sure that TRUE for background and FALSE for foreground
+   python invertMask.py --datadir <base_dir>/<object_reshape_name> \
+                        --destdir <base_dir>/<object_reshape_name>
