@@ -7,7 +7,7 @@ from PIL import Image
 from data_utils import centercrop
 
 datadir = "../InsDet/Objects"
-destdir = "../gendata/Object_centercrop"
+destdir = "../gendata/object_centercrop"
 
 cropsize = []
 
