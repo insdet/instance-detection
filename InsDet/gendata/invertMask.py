@@ -13,8 +13,8 @@ def get_args():
     parser.add_argument('--destdir', type=str, help='target data path')
     args = parser.parse_args()
 
-    args.datadir = "/home/SQQ/svid/gendata/objects_downsize/079_polaroid_film"
-    args.destdir = "/home/SQQ/svid/gendata/objects_bk/079_polaroid_film"
+    args.datadir = "../gendata/objects_downsize/079_polaroid_film"
+    args.destdir = "../gendata/objects_bk/079_polaroid_film"
 
     return args
 
