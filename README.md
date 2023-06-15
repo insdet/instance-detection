@@ -13,6 +13,8 @@ The **Objects** contains:
 - <p align="left"> $\vdots$ </p>
 - 099_mug_blue
 
+![vis-objects](/assets/vis-objects.png)
+
 Tip: The first three digits specify the instance id.
 
 The **Scenes** contains:
@@ -27,6 +29,8 @@ The **Scenes** contains:
 - hard
   - office\_001
   - pantry\_room\_001
+
+![vis-scenes](/assets/vis-scenes.png)
 
 Tip: Each bounding box is specified by [xmin, ymin, xmax, ymax].
 
