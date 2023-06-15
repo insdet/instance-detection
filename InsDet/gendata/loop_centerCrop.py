@@ -6,11 +6,9 @@ import numpy as np
 from PIL import Image
 from data_utils import centercrop
 
-datadir = "/home/SQQ/svid/RealWorld/RealObject_processed_by_SAM"
-destdir = "/home/SQQ/svid/gendata/RealObject_centercrop"
+datadir = "../InsDet/Objects"
+destdir = "../gendata/Object_centercrop"
 
-# datadir = "/home/SQQ/svid/segment-anything/RealObject"
-# destdir = "/home/SQQ/svid/gendata/objects_crop"
 cropsize = []
 
 if len(cropsize) == 0:
