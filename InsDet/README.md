@@ -30,3 +30,9 @@ Tip: Each bounding box is specified by [xmin, ymin, xmax, ymax].
 - hard
   - office\_001
   - pantry\_room\_001
+
+The **Background** contains 200 pure background images that do not include any instances from **Objects** folder.
+
+## Code
+The project is built on [detectron2](https://github.com/facebookresearch/detectron2), [segment-anything](https://github.com/facebookresearch/segment-anything), and [DINOv2](https://github.com/facebookresearch/dinov2).
+
