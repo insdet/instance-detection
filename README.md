@@ -1,6 +1,6 @@
 # InsDet Dataset
 The InsDet datase is a high-resolution real-world dataset for **Instance Detection** with **Multi-view Instance Capture**.<br>
-We provide an InsDet-mini for demo and visualization. The full dataset will be released after paper acceptance.
+We provide an [InsDet-mini](https://drive.google.com/drive/folders/1X8MT5JuLq0Vjq1jNE1I9h3q_JGolNJsI?usp=sharing) for demo and visualization. The full dataset will be released after paper acceptance.
 
 ## Dataset
 The full dataset contains 100 objects with multi-view profile images in 24 rotation positions (per 15&deg;), 160 testing scene images with high-resolution, and 200 pure background images. The mini version contains 5 objects, 10 testing scene images, and 10 pure background images.
