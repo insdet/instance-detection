@@ -5,8 +5,8 @@ import sys
 import numpy as np
 from PIL import Image
 
-datadir = "/home/SQQ/svid/segment-anything/RealObject"
-destdir = "/home/SQQ/svid/gendata/objects_crop"
+datadir = "../segment-anything/RealObject"
+destdir = "../gendata/objects_crop"
 cropsize = []
 
 if len(cropsize) == 0:
