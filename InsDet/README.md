@@ -38,6 +38,6 @@ The project is built on [detectron2](https://github.com/facebookresearch/detectr
 <!-- Detectron2 provides end-to-end detectors implementation and metric evaluation. Segment-anything is an off-the-shelf class-agnostic segmentation model that we used to produce instance proposals. DINOv2 is a self-supervised vision foundation model that we used to extract feature representation. -->
 
 ### Data preparation
-
+All profile images in InsDet-Objects are preprocessed by using *minify*, *resizemask*, *getbbox*, *centercrop*, and *invertmask* packed in *gendata/data_utils.py*
 
 
