@@ -5,7 +5,7 @@ import sys
 import numpy as np
 from PIL import Image
 
-datadir = "../segment-anything/Objects"
+datadir = "../InsDet/Objects"
 destdir = "../gendata/objects_crop"
 cropsize = []
 
