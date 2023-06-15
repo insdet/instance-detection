@@ -5,11 +5,8 @@ import numpy as np
 from PIL import Image
 from data_utils import getbbox
 
-datadir = "/home/SQQ/ShapeNetObjects"
-destdir = "/home/SQQ/ShapeNetObjects"
-
-# datadir = "/home/SQQ/svid/RealWorld/RealObject"
-# destdir = "/home/SQQ/svid/RealWorld/RealObject"
+datadir = "../RealWorld/RealObject"
+destdir = "../RealWorld/RealObject"
 savefile = "bbox.npy"
 source_list = sorted(glob.glob(os.path.join(datadir, '*')))
 
