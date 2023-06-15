@@ -1,0 +1,39 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: InsDet
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - given-names: Qianqian
+    family-names: Shen
+    affiliation: Zhejiang Lab
+  - given-names: Yunhan
+    family-names: Zhao
+    affiliation: UC-Irvine
+  - given-names: Nahyun
+    family-names: Kwon
+    affiliation: Texas A&M University
+  - given-names: Jeeeun
+    family-names: Kim
+    affiliation: Texas A&M University
+  - given-names: Yanan
+    family-names: Li
+    affiliation: Zhejiang Lab
+  - given-names: Shu
+    family-names: Kong
+    email: instance.detection@gmail.com
+    affiliation: Texas A&M University
+identifiers:
+  - type: url
+    value: 'https://github.com/insdet/instance-detection'
+repository-code: 'https://github.com/insdet/instance-detection'
+abstract: >-
+  A high-resolution real-world dataset and an non-learned
+  method for instance detection
+keywords:
+  - Instance Detection
+license: MIT
