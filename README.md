@@ -45,4 +45,9 @@ The project is built on [detectron2](https://github.com/facebookresearch/detectr
 ### Data preparation
 All profile images in InsDet-Objects are preprocessed by using `minify`, `resizemask`, `getbbox`, `centercrop`, and `invertmask` packed in `gendata/data_utils.py`. Examples for single or loop operation are included in `gendata`.
 
-### 
+### Demo
+The Jupyter notebooks files demonstrate our ono-learned method using SAM and DINOv2. The pretrained models for SAM and DINOv2 are downloaded from their github homepages.
+|                  | SAM  | DINOv2|
+| :---             | :---:|:---:|
+| Pretrained Model | | |
+
