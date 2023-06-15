@@ -2,8 +2,8 @@ import glob
 import os
 from data_utils import resizemask
 
-datadir = "/home/SQQ/svid/gendata/objects_centercrop/"
-destdir = "/home/SQQ/svid/gendata/objects_downsize/"
+datadir = "../gendata/objects_centercrop/"
+destdir = "../gendata/objects_downsize/"
 factors = []
 resolutions = [256, 256]
 
