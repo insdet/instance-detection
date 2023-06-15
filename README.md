@@ -42,8 +42,8 @@ The **Background** contains 200 pure background images that do not include any i
 The project is built on [detectron2](https://github.com/facebookresearch/detectron2), [segment-anything](https://github.com/facebookresearch/segment-anything), and [DINOv2](https://github.com/facebookresearch/dinov2).<br>
 <!-- Detectron2 provides end-to-end detectors implementation and metric evaluation. Segment-anything is an off-the-shelf class-agnostic segmentation model that we used to produce instance proposals. DINOv2 is a self-supervised vision foundation model that we used to extract feature representation. -->
 
-### Data preparation
-All profile images in InsDet-Objects are preprocessed by using `minify`, `resizemask`, `getbbox`, `centercrop`, and `invertmask` packed in `gendata/data_utils.py`. Examples for single or loop operation are included in `gendata`.
+<!-- ### Data preparation
+All profile images in InsDet-Objects are preprocessed by using `minify`, `resizemask`, `getbbox`, `centercrop`, and `invertmask` packed in `gendata/data_utils.py`. Examples for single or loop operation are included in `gendata`. -->
 
 ### Demo
 The Jupyter notebooks files demonstrate our ono-learned method using SAM and DINOv2. We choose light pretrained models of SAM (vit_l) and DINOv2 (dinov2_vits14) for efficiency.
