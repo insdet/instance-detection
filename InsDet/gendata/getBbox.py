@@ -19,8 +19,8 @@ def get_args():
 
 if __name__ == '__main__':
     args = get_args()
-    args.datadir = "/home/SQQ/svid/segment-anything/RealObject/079_polaroid_film"
-    args.destdir = "/home/SQQ/svid/segment-anything/RealObject/079_polaroid_film"
+    args.datadir = "../segment-anything/RealObject/079_polaroid_film"
+    args.destdir = "../segment-anything/RealObject/079_polaroid_film"
     args.exponent = 1
     mask_paths = sorted([p for p in glob.glob(os.path.join(args.datadir, 'masks', '*'))
                          if re.search('/*\.(jpg|jpeg|png|gif|bmp)', str(p))])
