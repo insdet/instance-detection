@@ -22,7 +22,7 @@ def get_args():
 if __name__ == '__main__':
     args = get_args()
 
-    args.datadir = "../segment-anything/RealObject/079_polaroid_film"
+    args.datadir = "../segment-anything/Objects/079_polaroid_film"
     args.destdir = "../gendata/objects_centercrop"
     args.cropsize = []
 
