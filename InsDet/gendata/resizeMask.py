@@ -13,8 +13,8 @@ def get_args():
     parser.add_argument('--resolutions', nargs='+', type=int, default=[], help='resolution for target image')
     args = parser.parse_args()
 
-    args.datadir = "/home/SQQ/svid/gendata/objects_centercrop/079_polaroid_film/masks"
-    args.destdir = "/home/SQQ/svid/gendata/objects_downsize/079_polaroid_film/masks"
+    args.datadir = "../gendata/objects_centercrop/079_polaroid_film/masks"
+    args.destdir = "../gendata/objects_downsize/079_polaroid_film/masks"
     args.factors = []
     args.resolutions = [256, 256]
 
