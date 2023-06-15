@@ -46,8 +46,11 @@ The project is built on [detectron2](https://github.com/facebookresearch/detectr
 All profile images in InsDet-Objects are preprocessed by using `minify`, `resizemask`, `getbbox`, `centercrop`, and `invertmask` packed in `gendata/data_utils.py`. Examples for single or loop operation are included in `gendata`.
 
 ### Demo
-The Jupyter notebooks files demonstrate our ono-learned method using SAM and DINOv2. The pretrained models for SAM and DINOv2 are downloaded from their github homepages.
-|                  | SAM  | DINOv2|
-| :---             | :---:|:---:|
-| Pretrained Model | | |
+The Jupyter notebooks files demonstrate our ono-learned method using SAM and DINOv2. We choose light pretrained models of SAM (vit_l) and DINOv2 (dinov2_vits14) for efficiency.
+<!-- |  Pretrained Model  | # of params |  AP  | AP50 | AP75 |
+| :---               | :---:       | :---:| :---:| :---:|
+| ViT-S/14 distilled | 21M         |41.61 |49.10 |45.95 |
+|ViT-B/14 distilled  | 86M         |41.89 |49.39 |46.30 |
+|ViT-L/14 distilled  | 300M        |43.33 |50.80 |47.84 |
+|ViT-g/14            | 1,100M      |44.65 |53.47 |49.11 | -->
 
