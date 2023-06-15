@@ -14,8 +14,8 @@ def get_args():
     parser.add_argument('--extend', type=str, help='extend for images')
     args = parser.parse_args()
 
-    args.datadir = "/home/SQQ/svid/gendata/objects_centercrop/079_polaroid_film"
-    args.destdir = "/home/SQQ/svid/gendata/objects_downsize"
+    args.datadir = "../gendata/objects_centercrop/079_polaroid_film"
+    args.destdir = "../gendata/objects_downsize"
     args.factors = []
     args.resolutions = [256, 256]
     args.extend = "png"
