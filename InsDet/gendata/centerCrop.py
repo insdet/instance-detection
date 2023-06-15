@@ -22,8 +22,8 @@ def get_args():
 if __name__ == '__main__':
     args = get_args()
 
-    args.datadir = "/home/SQQ/svid/segment-anything/RealObject/079_polaroid_film"
-    args.destdir = "/home/SQQ/svid/gendata/objects_centercrop"
+    args.datadir = "../segment-anything/RealObject/079_polaroid_film"
+    args.destdir = "../gendata/objects_centercrop"
     args.cropsize = []
 
     if len(args.cropsize) == 0:
