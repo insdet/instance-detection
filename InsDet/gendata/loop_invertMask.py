@@ -5,8 +5,8 @@ import numpy as np
 from PIL import Image
 from data_utils import invertmask
 
-data_dir = "../gendata/RealObject_downsize"
-dest_dir = "../gendata/RealObject_"
+data_dir = "../gendata/object_downsize"
+dest_dir = "../gendata/objects_"
 
 source_list = sorted(glob.glob(os.path.join(data_dir, '*')))
 
