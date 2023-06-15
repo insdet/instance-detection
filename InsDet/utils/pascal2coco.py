@@ -185,7 +185,7 @@ def getCOCOjson(root_path, save_path, factor=1.0, flag=None):
 
 if __name__ == '__main__':
 
-    # root_path = "/home/SQQ/svid/syndata-generation/syndata_1"
+    # root_path = "../syndata-generation/syndata_1"
 
     # image_paths = os.listdir(os.path.join(root_path, 'images'))
     # # train:val = 0.75:0.25
@@ -221,8 +221,8 @@ if __name__ == '__main__':
     
     level = 'hard'  # 'all', 'hard', 'easy'
     factor = 1
-    root_path = "/home/SQQ/svid/RealWorld/RealScene"
-    test_path = "/home/SQQ/svid/database/Data/test_" + str(factor) + '_' + str(level) 
+    root_path = "../InsDet/Scenes"
+    test_path = "../database/Data/test_" + str(factor) + '_' + str(level) 
     if not os.path.exists(os.path.join(test_path, 'images')):
         os.makedirs(os.path.join(test_path, 'images'))
     if not os.path.exists(os.path.join(test_path, 'annotations')):
@@ -255,5 +255,4 @@ if __name__ == '__main__':
     # minify(os.path.join(test_path, 'images'), os.path.join(test_path, 'test'),
     #        factors=[], resolutions=[[int(height / factor), int(width / factor)]], extend='jpg')
 
-    # root_path = "/home/SQQ/svid/syndata-generation/data_debug"
-    # getCOCOjson(root_path, os.path.join(root_path, 'instances_val.json'))
+
