@@ -39,5 +39,3 @@ The project is built on [detectron2](https://github.com/facebookresearch/detectr
 
 ### Data preparation
 All profile images in InsDet-Objects are preprocessed by using `minify`, `resizemask`, `getbbox`, `centercrop`, and `invertmask` packed in `gendata/data_utils.py`.
-
-
