@@ -34,5 +34,10 @@ Tip: Each bounding box is specified by [xmin, ymin, xmax, ymax].
 The **Background** contains 200 pure background images that do not include any instances from **Objects** folder.
 
 ## Code
-The project is built on [detectron2](https://github.com/facebookresearch/detectron2), [segment-anything](https://github.com/facebookresearch/segment-anything), and [DINOv2](https://github.com/facebookresearch/dinov2).
+The project is built on [detectron2](https://github.com/facebookresearch/detectron2), [segment-anything](https://github.com/facebookresearch/segment-anything), and [DINOv2](https://github.com/facebookresearch/dinov2).<br>
+<!-- Detectron2 provides end-to-end detectors implementation and metric evaluation. Segment-anything is an off-the-shelf class-agnostic segmentation model that we used to produce instance proposals. DINOv2 is a self-supervised vision foundation model that we used to extract feature representation. -->
+
+### Data preparation
+
+
 
