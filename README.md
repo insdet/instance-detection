@@ -1,6 +1,6 @@
 # InsDet Dataset
 The InsDet datase is a high-resolution real-world dataset for **Instance Detection** with **Multi-view Instance Capture**.<br>
-We provide an [InsDet-mini](https://drive.google.com/drive/folders/1X8MT5JuLq0Vjq1jNE1I9h3q_JGolNJsI?usp=sharing) for demo and visualization. The full dataset will be released after paper acceptance.
+We provide an [InsDet-mini](https://drive.google.com/drive/folders/1X8MT5JuLq0Vjq1jNE1I9h3q_JGolNJsI?usp=sharing) for demo and visualization, and the full dataset [InsDet-FULL](https://drive.google.com/drive/folders/1rIRTtqKJGCTifcqJFSVvFshRb-sB0OzP?usp=sharing).
 
 ## Dataset
 The full dataset contains 100 objects with multi-view profile images in 24 rotation positions (per 15&deg;), 160 testing scene images with high-resolution, and 200 pure background images. The mini version contains 5 objects, 10 testing scene images, and 10 pure background images.
@@ -46,7 +46,7 @@ The project is built on [detectron2](https://github.com/facebookresearch/detectr
 All profile images in InsDet-Objects are preprocessed by using `minify`, `resizemask`, `getbbox`, `centercrop`, and `invertmask` packed in `gendata/data_utils.py`. Examples for single or loop operation are included in `gendata`. -->
 
 ### Demo
-The Jupyter notebooks files demonstrate our nono-learned method using SAM and DINOv2. We choose light pretrained models of SAM (vit_l) and DINOv2 (dinov2_vits14) for efficiency.
+The Jupyter notebooks files demonstrate our non-learned method using SAM and DINOv2. We choose light pretrained models of SAM (vit_l) and DINOv2 (dinov2_vits14) for efficiency.
 <!-- |  Pretrained Model  | # of params |  AP  | AP50 | AP75 |
 | :---               | :---:       | :---:| :---:| :---:|
 | ViT-S/14 distilled | 21M         |41.61 |49.10 |45.95 |
