@@ -1,6 +1,19 @@
-# A High-Resolution Dataset for Instance Detection with Multi-View Instance Capture
+## A High-Resolution Dataset for Instance Detection with Multi-View Instance Capture
 
 NeurIPS (Datasets and Benchmarks) 2023
+
+**Authors**: Qianqian Shen<sup>\*</sup>, Yunhan Zhao<sup>\*</sup>, Nahyun Kwon, Jeeeun Kim, Yanan Li, Shu Kong
+
+If you find our model/method/dataset useful, please cite our work ([NeurIPS version on arxiv](https://arxiv.org/abs/2310.19257)):
+
+    @inproceedings{shen2023instance,
+      title={A High-Resolution Dataset for Instance Detection with Multi-View Instance Capture},
+      author={Shen, Qianqian and Zhao, Yunhan and Kwon, Nahyun and Kim, Jeeeun and Li, Yanan and Kong, Shu},
+      booktitle={NeurIPS Datasets and Benchmarks},
+      year={2023}
+    }
+
+
 
 The InsDet datase is a high-resolution real-world dataset for **Instance Detection** with **Multi-view Instance Capture**.<br>
 We provide an [InsDet-mini](https://drive.google.com/drive/folders/1X8MT5JuLq0Vjq1jNE1I9h3q_JGolNJsI?usp=sharing) for demo and visualization, and the full dataset [InsDet-FULL](https://drive.google.com/drive/folders/1rIRTtqKJGCTifcqJFSVvFshRb-sB0OzP?usp=sharing).
@@ -59,12 +72,4 @@ The Jupyter notebooks files demonstrate our non-learned method using SAM and DIN
 
 
 
-If you find our model/method/dataset useful, please cite our work ([NeurIPS version on arxiv](https://arxiv.org/abs/2310.19257)):
-
-    @inproceedings{shen2023instance,
-      title={A High-Resolution Dataset for Instance Detection with Multi-View Instance Capture},
-      author={Shen, Qianqian and Zhao, Yunhan and Kwon, Nahyun and Kim, Jeeeun and Li, Yanan and Kong, Shu},
-      booktitle={NeurIPS Datasets and Benchmarks},
-      year={2023}
-    }
 
