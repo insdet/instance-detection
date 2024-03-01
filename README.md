@@ -9,7 +9,7 @@ If you find our model/method/dataset useful, please cite our work ([NeurIPS vers
     @inproceedings{shen2023instance,
       title={A High-Resolution Dataset for Instance Detection with Multi-View Instance Capture},
       author={Shen, Qianqian and Zhao, Yunhan and Kwon, Nahyun and Kim, Jeeeun and Li, Yanan and Kong, Shu},
-      booktitle={NeurIPS Datasets and Benchmarks},
+      booktitle={NeurIPS Datasets and Benchmarks Track},
       year={2023}
     }
 
