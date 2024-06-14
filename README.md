@@ -6,13 +6,13 @@ NeurIPS (Datasets and Benchmarks) 2023
 
 If you find our model/method/dataset useful, please cite our work ([NeurIPS version on arxiv](https://arxiv.org/abs/2310.19257)):
 
-    @inproceedings{shen2023instance,
-      title={A High-Resolution Dataset for Instance Detection with Multi-View Instance Capture},
+    @article{shen2024high,
+      title={A High-Resolution Dataset for Instance Detection with Multi-View Object Capture},
       author={Shen, Qianqian and Zhao, Yunhan and Kwon, Nahyun and Kim, Jeeeun and Li, Yanan and Kong, Shu},
-      booktitle={NeurIPS Datasets and Benchmarks Track},
-      year={2023}
+      journal={Advances in Neural Information Processing Systems},
+      volume={36},
+      year={2024}
     }
-
 
 
 The InsDet datase is a high-resolution real-world dataset for **Instance Detection** with **Multi-view Instance Capture**.<br>
