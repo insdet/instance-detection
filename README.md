@@ -1,8 +1,7 @@
-## A High-Resolution Dataset for Instance Detection with Multi-View Instance Capture
+<div align="center">
+<h1>A High-Resolution Dataset for Instance Detection with Multi-View Instance Capture</h1>
 
-NeurIPS (Datasets and Benchmarks) 2023
-
-**Authors**: Qianqian Shen<sup>\*</sup>, Yunhan Zhao<sup>\*</sup>, Nahyun Kwon, Jeeeun Kim, Yanan Li, Shu Kong
+[**Qianqian Shen**](https://shenqq377.github.io/)<sup>1</sup> · [**Yunhan Zhao**](https://yunhan-zhao.github.io/)<sup>2</sup> ·  [**Nahyun Kwon**](https://nahyunkwon.github.io/)<sup>3</sup> · [**Jeeeun Kim**](https://github.com/qubick)<sup>3</sup> · [**Yanan Li**](https://yananlix1.github.io/)<sup>4</sup> · [**Shu Kong**](https://aimerykong.github.io/)<sup>3</sup><sup>,</sup><sup>5</sup><sup>,</sup><sup>6</sup></span>
 
 If you find our model/method/dataset useful, please cite our work ([NeurIPS version on arxiv](https://arxiv.org/abs/2310.19257)):
 
