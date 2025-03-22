@@ -1,20 +1,17 @@
 <div align="center">
 <h1>A High-Resolution Dataset for Instance Detection with Multi-View Instance Capture</h1>
 
-NeurIPS (Datasets and Benchmarks) 2023
+[**Qianqian Shen**](https://shenqq377.github.io/)<sup>1</sup> · [**Yunhan Zhao**](https://yunhan-zhao.github.io/)<sup>2</sup> ·  [**Nahyun Kwon**](https://nahyunkwon.github.io/)<sup>3</sup> · [**Jeeeun Kim**](https://github.com/qubick)<sup>3</sup> · [**Yanan Li**](https://yananlix1.github.io/)<sup>1</sup> · [**Shu Kong**](https://aimerykong.github.io/)<sup>3</sup><sup>,</sup><sup>4</sup><sup>,</sup><sup>5</sup>
 
-[**Qianqian Shen**](https://shenqq377.github.io/)<sup>1</sup> · [**Yunhan Zhao**](https://yunhan-zhao.github.io/)<sup>2</sup> ·  [**Nahyun Kwon**](https://nahyunkwon.github.io/)<sup>3</sup> · [**Jeeeun Kim**](https://github.com/qubick)<sup>3</sup> · [**Yanan Li**](https://yananlix1.github.io/)<sup>4</sup> · [**Shu Kong**](https://aimerykong.github.io/)<sup>3</sup><sup>,</sup><sup>5</sup><sup>,</sup><sup>6</sup></span>
+<sup>1</sup>Zhejiang Lab&emsp;<sup>2</sup>UC Irvine&emsp;<sup>3</sup>Texas A&M University&emsp;<sup>4</sup>University of Macau&emsp;<sup>5</sup>Institute of Collaborative
 
-If you find our model/method/dataset useful, please cite our work ([NeurIPS version on arxiv](https://arxiv.org/abs/2310.19257)):
+<a href="[https://arxiv.org/abs/2310.19257](https://arxiv.org/abs/2310.19257)"><img src='https://img.shields.io/badge/arXiv-InsDet-red' alt='Paper PDF'></a>
+<a href='https://shenqq377.github.io/IDOW/'><img src='https://img.shields.io/badge/Project_Page-InsDet-green' alt='Project Page'></a>
+<!-- <a href='https://huggingface.co/spaces/depth-anything/Depth-Anything-V2'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue'></a>
+<a href='https://huggingface.co/datasets/depth-anything/DA-2K'><img src='https://img.shields.io/badge/Benchmark-DA--2K-yellow' alt='Benchmark'></a> -->
+</div>
 
-    @article{shen2024high,
-      title={A High-Resolution Dataset for Instance Detection with Multi-View Object Capture},
-      author={Shen, Qianqian and Zhao, Yunhan and Kwon, Nahyun and Kim, Jeeeun and Li, Yanan and Kong, Shu},
-      journal={Advances in Neural Information Processing Systems},
-      volume={36},
-      year={2024}
-    }
-
+The paper has been accepted by **NeurIPS (Datasets and Benchmarks) 2023**.
 
 The InsDet datase is a high-resolution real-world dataset for **Instance Detection** with **Multi-view Instance Capture**.<br>
 We provide an [InsDet-mini](https://drive.google.com/drive/folders/1X8MT5JuLq0Vjq1jNE1I9h3q_JGolNJsI?usp=sharing) for demo and visualization, and the full dataset [InsDet-FULL](https://drive.google.com/drive/folders/1rIRTtqKJGCTifcqJFSVvFshRb-sB0OzP?usp=sharing).
@@ -71,6 +68,12 @@ The Jupyter notebooks files demonstrate our non-learned method using SAM and DIN
 |ViT-L/14 distilled  | 300M        |43.33 |50.80 |47.84 |
 |ViT-g/14            | 1,100M      |44.65 |53.47 |49.11 | -->
 
-
-
-
+## Citation
+If you find our project useful, please consider citing:
+```bibtex
+@inproceedings{shen2023high,
+        title={A high-resolution dataset for instance detection with multi-view object capture},
+        author={Shen, Qianqian and Zhao, Yunhan and Kwon, Nahyun and Kim, Jeeeun and Li, Yanan and Kong, Shu},
+        booktitle={NeurIPS Datasets & Benchmark Track},
+        year={2023}
+```
