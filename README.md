@@ -13,7 +13,7 @@
 
 The paper has been accepted by **NeurIPS (Datasets and Benchmarks) 2023**.
 
-![InsDet](assets/InsDet.jpg)
+![InsDet](assets/object-insdet.png)
 
 ## Dataset
 The InsDet datase is a high-resolution real-world dataset for **Instance Detection** with **Multi-view Instance Capture**.<br>
