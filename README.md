@@ -5,9 +5,9 @@
 
 <sup>1</sup>Zhejiang Lab&emsp;<sup>2</sup>UC Irvine&emsp;<sup>3</sup>Texas A&M University&emsp;<sup>4</sup>University of Macau&emsp;<sup>5</sup>Institute of Collaborative
 
-<a href="[https://arxiv.org/abs/2310.19257](https://arxiv.org/abs/2310.19257)"><img src='https://img.shields.io/badge/arXiv-InsDet-red' alt='Paper PDF'></a>
-<a href="[https://github.com/insdet/instance-detection/](https://github.com/insdet/instance-detection/)"><img src='https://img.shields.io/badge/Project_Page-InsDet-green' alt='Project Page'></a>
-<a href="[InsDet-FULL](https://drive.google.com/drive/folders/1rIRTtqKJGCTifcqJFSVvFshRb-sB0OzP?usp=sharing)"><img src='https://img.shields.io/badge/Benchmark-InsDet-yellow' alt='Benchmark'></a>
+<a href="https://arxiv.org/abs/2310.19257"><img src='https://img.shields.io/badge/arXiv-InsDet-red' alt='Paper PDF'></a>
+<a href="https://github.com/insdet/instance-detection/"><img src='https://img.shields.io/badge/Project_Page-InsDet-green' alt='Project Page'></a>
+<a href="https://drive.google.com/drive/folders/1rIRTtqKJGCTifcqJFSVvFshRb-sB0OzP?usp=sharing"><img src='https://img.shields.io/badge/Benchmark-InsDet-yellow' alt='Benchmark'></a>
 <!-- <a href='https://huggingface.co/spaces/depth-anything/Depth-Anything-V2'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue'></a> -->
 </div>
 
