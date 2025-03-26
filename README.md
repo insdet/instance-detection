@@ -8,7 +8,7 @@
 <a href="https://arxiv.org/abs/2310.19257"><img src='https://img.shields.io/badge/arXiv-InsDet-red' alt='Paper PDF'></a>
 <a href="https://github.com/insdet/instance-detection/"><img src='https://img.shields.io/badge/Project_Page-InsDet-green' alt='Project Page'></a>
 <a href="https://drive.google.com/drive/folders/1rIRTtqKJGCTifcqJFSVvFshRb-sB0OzP?usp=sharing"><img src='https://img.shields.io/badge/Benchmark-InsDet-yellow' alt='Benchmark'></a>
-<!-- <a href='https://huggingface.co/spaces/depth-anything/Depth-Anything-V2'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue'></a> -->
+<a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/832ea0ff01bd512aab28bf416db9489c-Paper-Datasets_and_Benchmarks.pdf"><img src='https://img.shields.io/badge/Paper_Page-InsDet-blue'></a>
 </div>
 
 The paper has been accepted by **NeurIPS (Datasets and Benchmarks) 2023**.
